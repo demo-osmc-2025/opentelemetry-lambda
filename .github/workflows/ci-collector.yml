@@ -13,8 +13,8 @@ on:
       - '.github/workflows/ci-collector.yml'
     branches:
       - main
-  schedule:
-    - cron: '*/55 * * * 1-5'
+#  schedule:
+#    - cron: '*/55 * * * 1-5'
 
 jobs:
   test:

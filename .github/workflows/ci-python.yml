@@ -13,8 +13,8 @@ on:
       - '.github/workflows/ci-python.yml'
     branches:
       - main
-  schedule:
-    - cron: '*/35 * * * 1-5'
+#  schedule:
+#    - cron: '*/35 * * * 1-5'
 
 env:
   AWS_REGION: us-east-1
