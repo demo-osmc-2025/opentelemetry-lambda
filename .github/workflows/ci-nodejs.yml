@@ -13,8 +13,8 @@ on:
       - '.github/workflows/ci-nodejs.yml'
     branches:
       - main
-#  schedule:
-#    - cron: '*/50 * * * 1-5'
+  schedule:
+    - cron: '*/50 * * * 1-5'
 
 jobs:
   build:
